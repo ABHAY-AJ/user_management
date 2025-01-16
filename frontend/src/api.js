@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/users';
+const API_URL = 'https://user-management-900x.onrender.com/api/users';
 
 // Fetch all users
 export const fetchUsers = async () => {
